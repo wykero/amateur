@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amateur TV - Clon Feed</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            amateur<span>.tv</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#" class="active"><i class="fas fa-video"></i> EN VIVO</a>
+            <a href="#"><i class="fas fa-star"></i> POPULARES</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <h2 class="section-title">Modelos en directo en Español</h2>
+        
+        <div id="cams-container" class="cams-grid">
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+                <p>Buscando transmisiones en vivo...</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
